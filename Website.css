@@ -1,0 +1,118 @@
+header{
+    background-color: rgb(78, 162, 195);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    color:white;
+    
+}
+header ul{
+    color: white;
+    text-align: center;
+    padding: 0%;
+    
+}
+header li{ 
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    color:white;
+    background-color: rgb(26, 26, 159);
+    border-width: 2px;
+    border-color: white;
+    border-radius: 4px;
+    border-style: solid;
+}
+header a{
+    color: white;
+}
+header li:hover{ 
+    color: white;
+    background-color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-width: 4px;
+    border-style: dashed;
+    border-color: lightblue;
+}
+body{
+    background-color: rgb(78, 162, 195);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+body h2 span{
+    background-color:rgb(78, 119, 195);
+}
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:  rgb(78, 119, 195);
+}
+th{ 
+    background-color: darkblue;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+td{
+    background-color:rgb(78, 162, 195) ;
+    border-color: white;
+    border-style: dashed;
+}
+#Wie{
+    color:white;    
+}
+p{
+    background-color:rgb(78, 119, 195) ;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+form{
+    display: block;
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color:rgb(78, 119, 195) ;
+
+}
+
+input[type="text"], 
+    input[type="email"], 
+    textarea, 
+    button{display: block;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 15px auto;
+    }
+textarea{ 
+    height: 150px;
+}
+button:active{
+    background-color: blueviolet;
+    border: 2px;
+    border-color: white;
+    border-style: dotted;
+    padding: 5px;
+}
+footer{
+    background-color: rgb(78, 162, 195);
+    padding: 10px;
+}
+footer h6{
+    margin-left: 90%;
+    margin-right: 10%;
+    padding: 5px;
+}
